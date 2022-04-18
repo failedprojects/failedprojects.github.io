@@ -52,7 +52,9 @@
 	height: auto;
 	margin: 400px auto 60px;
 	padding: 30px 40px 22px;
+	/* fallback */
 	background: #fff;
+	background: rgba(255,255,255, 0.5);
 }
 
 .card__container--closed .card__content {
